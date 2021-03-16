@@ -1,0 +1,39 @@
+
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  background-color: #dedad9;
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+
+.input {
+  border-color: 1px solid #333;
+  /* border-radius: 30px; */
+  width:15rem;
+  padding: .25rem;
+  height: 20px;
+}
+
+.select{
+  border-color: 1px solid #333;
+  width:5rem;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.equal{
+  font-weight: bold;
+  font-size: 2rem;
+}
